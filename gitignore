@@ -1,0 +1,14 @@
+# Ignore cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore distributable files
+*.whl
+dist/
+build/
+
+# Ignore trained model
+*.pkl
+
+
