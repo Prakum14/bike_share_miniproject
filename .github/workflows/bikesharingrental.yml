@@ -43,7 +43,7 @@ jobs:
 
       - name: Run Tests
         run: |
-          python test_predictions.py # Runs unit tests
+          python bikeshare_project/tests/test_predictions.py # Runs unit tests
 
   build_package:
     runs-on: ubuntu-latest
