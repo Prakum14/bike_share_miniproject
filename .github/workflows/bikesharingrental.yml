@@ -23,7 +23,7 @@ jobs:
 
       - name: Train the Model
         run: |
-          python train_pipeline.py  # Change path as per your project structure
+          python bikeshare_project/bikeshare_model/train_pipeline.py
 
   test_model:
     runs-on: ubuntu-latest
