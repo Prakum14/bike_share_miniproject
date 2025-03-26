@@ -43,7 +43,7 @@ jobs:
 
       - name: Run Tests
         run: |
-          pytest test_predictions.py # Runs unit tests
+          python test_predictions.py # Runs unit tests
 
   build_package:
     runs-on: ubuntu-latest
